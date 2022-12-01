@@ -187,6 +187,25 @@ footer h6:nth-child(2){
 @media (min-width: 1440px) {}
 
 /* 4K Display */
-@media (min-width: 2560px) {}
+@media (min-width: 2560px) {
+
+    header svg{
+        width: 40px;
+        height: 40px;
+    }
+    
+    header [data-change-lang]{
+    width: 55px;
+    }
+
+    footer h6{
+        font-size: 1rem;
+    }
+
+    footer #logo{
+        width: 55px;
+        height: 55px;
+    }
+}
 
 /*****************************************/
