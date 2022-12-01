@@ -1,5 +1,6 @@
-![Banner Image](https://raw.githubusercontent.com/AlexQS96/AlexQS96/main/public/img/github_cover.png)
-Im a web developer enthusiast who loves to learn about new things, you can find me on my social medias down below
+![Banner Image](./public/img/github_cover.png)
+
+### Im a web developer enthusiast who loves to learn about new things, you can find me on my social medias down below
 
 
 [![Linkedin Badge](https://img.shields.io/badge/Alexander_Mamani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/alexander-mamani)](https://www.linkedin.com/in/alexander-mamani)
