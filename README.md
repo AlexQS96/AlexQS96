@@ -1,4 +1,4 @@
-![Banner Image]('./public/img/porfolio_og.png')
+![Banner Image](https://raw.githubusercontent.com/AlexQS96/AlexQS96/main/public/img/github_cover.png)
 Im a web developer enthusiast who loves to learn about new things, you can find me on my social medias down below
 
 
