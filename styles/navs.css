@@ -162,7 +162,6 @@ footer h6:nth-child(2){
 
     footer{
         place-items: center;
-        padding-bottom: 2rem;
     }
 }
 
@@ -178,6 +177,7 @@ footer h6:nth-child(2){
     footer{
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 2rem;
     }
 }
 
