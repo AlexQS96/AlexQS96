@@ -57,10 +57,10 @@ export default function Home() {
               <div>
                 <h6>{pageLanguage.findMe}</h6>
                 <div>
-                <a className="svgFill" href='https://github.com/alexqs96' target="_blank" rel="noreferrer noopener"><GithubLogo/></a>
-                <a className="svgFill" href='https://www.linkedin.com/in/alexander-mamani' target="_blank" rel="noreferrer noopener"><LinkedinLogo/></a>
-                <a className="svgFill" href='https://wa.me/+5491122636544' target="_blank" rel="noreferrer noopener"><WhatsappLogo/></a>
-                <a className="svgFill" href='https://www.facebook.com/profile.php?id=100041428520951' target="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
+                <a href='https://github.com/alexqs96' target="_blank" rel="noreferrer noopener"><GithubLogo/></a>
+                <a href='https://www.linkedin.com/in/alexander-mamani' target="_blank" rel="noreferrer noopener"><LinkedinLogo/></a>
+                <a href='https://wa.me/+5491122636544' target="_blank" rel="noreferrer noopener"><WhatsappLogo/></a>
+                <a href='https://www.facebook.com/profile.php?id=100041428520951' target="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
                 </div>
               </div>
               <button className='button_1'>{pageLanguage.downloadcv}</button>
