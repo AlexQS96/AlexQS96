@@ -745,8 +745,8 @@ img{
     height: 40px;
   }
 
-  [data-change-lang]{
-    width: 75px;
+  header [data-change-lang]{
+    width: 55px;
   }
 
   .skills div{
