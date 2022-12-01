@@ -10,7 +10,7 @@
         "url" : "https://throwanote.netlify.app",
         "link" : "/throwanote",
         "tech" : ["NextJSLogo", "ExpressLogo", "NodeJSLogo", "MongoDBLogo"],
-        "wip" : false
+        "wip" : true
     }
     ,
     {
