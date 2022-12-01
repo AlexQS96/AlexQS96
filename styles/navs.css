@@ -1,0 +1,192 @@
+/* Header */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    font-weight: 600;
+    align-items: center;
+    width: 100%;
+}
+
+header svg{
+    cursor: pointer;
+}
+
+header nav #menu{
+    width: 40px;
+    filter: invert(var(--svg_invert_dark));
+}
+
+header ul{
+    list-style: none;
+}
+
+header li svg{
+    display: flex;
+    margin: 0 auto;
+}
+
+header li a{
+    display: contents;
+}
+
+.logo {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+[data-change-lang]{
+    display: flex;
+    cursor: pointer;
+    width: 35px;
+    user-select: none;
+}
+
+[data-change-lang] p:nth-child(2){
+    margin-left: .15rem;
+    margin-top: 1rem;
+    font-size: var(--header_font);
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    width: 100%;
+    padding-bottom: 3rem;
+    position: absolute;
+    bottom: 0;
+    inset-inline: 0;
+}
+
+footer #logo{
+    width: 45px;
+    height: 45px;
+}
+
+footer h6{
+    letter-spacing: .2rem;
+}
+
+footer h6:nth-child(2){
+    margin-top: auto;
+}
+
+@keyframes openMenu {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes leaveMenu {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+/*****************************************/
+/* Media Queries */
+/*****************************************/
+
+/* Mobile Short - iPhone 4 3.5' */
+@media (max-width: 767px) {
+
+    header .nav{
+        display: none;
+    }
+
+    .navClose{
+        animation: leaveMenu .5s linear !important;
+    }
+
+    header .navOpen{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg_page);
+        height: 100vh;
+        width: 100vw;
+        inset-block: 0;
+        left: -8.8%;
+        position: absolute;
+        z-index: 2;
+        justify-content: center;
+        background-image: var(--bg_page_effect);
+        animation: openMenu .5s linear;
+    }
+
+    header .navOpen span{
+        top: 2.5%;
+        right: 7%;
+        position: absolute;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .noScroll {
+        overflow: hidden;
+    }
+
+    header li{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: .5rem;
+        margin-inline: auto;
+        margin-bottom: .5rem;
+        cursor: pointer;
+        width: 180px;
+    }
+
+    header li p{
+        font-size: 1.2rem;
+    }
+
+    header #navOpt svg,
+    header #navOpt{
+        width: 3rem;
+        margin: auto 0;
+    }
+
+    footer{
+        place-items: center;
+    }
+}
+
+/* Tablet 7' or Higher */
+@media (min-width: 768px) {
+
+    .nav {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* Notebook/Desktop */
+@media (min-width: 1024px) {}
+
+/* Notebook/Desktop Long */
+@media (min-width: 1440px) {}
+
+/* 4K Display */
+@media (min-width: 2560px) {}
+
+/*****************************************/

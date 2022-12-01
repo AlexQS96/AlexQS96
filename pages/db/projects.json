@@ -1,0 +1,57 @@
+[
+    {
+        "id" : 1,
+        "name" : "Throw A Note",
+        "image" : "throwanote_preview.jpg",
+        "screens" : ["throwanote_notebook.png","throwanote_mobile.png"],
+        "description" : "Throw A Note es una web de notas anonimas, podes postear tu nota anonimamente, y compartir el link, en la pagina tenes un buscador donde podes buscar notas segun el titulo, siempre que la nota sea publica, si se marca privada solo se podra ingresar por el link de la nota.",
+        "about" : "Subi las notas que quieras anonimamente en Throw a Note, notas publicas o privadas.",
+        "github" : "https://github.com/AlexQS96/ThrowANote_Web",
+        "url" : "https://throwanote.netlify.app",
+        "link" : "/throwanote",
+        "tech" : ["NextJSLogo", "ExpressLogo", "NodeJSLogo", "MongoDBLogo"],
+        "wip" : false
+    }
+    ,
+    {
+        "id" : 2,
+        "name" : "Anonytalk",
+        "image" : "anonytalk_preview.jpg",
+        "screens" : ["anonytalk_notebook.png","anonytalk_mobile.png"],
+        "description" : "Anonytalk es una web de chat anonimo en donde se puede hablar en chats grupales o privados sin necesidad de registros, solo ingresa un nombre y el id de chat y empeza a hablar.",
+        "about" : "Chatea anonimamente con grupos en Anonytalk, crea tu chat y compartilo con amigos.",
+        "github" : "https://github.com/AlexQS96/Anonytalk_Web",
+        "url" : "https://anonytalk.netlify.app",
+        "link" : "/anonytalk",
+        "tech" : ["NextJSLogo", "ExpressLogo", "NodeJSLogo" , "SocketIOLogo"],
+        "wip" : false
+    }
+    ,
+    {
+        "id" : 3,
+        "name" : "Magic Stream",
+        "image" : "magickids.png",
+        "screens" : ["magic_notebook.png","magic_mobile.png"],
+        "description" : "Magic Stream es una pagina de Streaming 24/7 dedicado mas al area de Anime del Canal Magic Kids, la pagina se realizo con NextJs, la base de datos se realizo en JSON la cual es consumida en la Grilla, Guia de Show Actual y Siguiente, Interfaz para Generar Playlist de VLC de 24 Horas para manejar el Stream y su Contenido, tambien arme el Servidor de esta pagina con NGINX, el cual se encarga de transmitir el contenido via OBS a la Pagina y Servicios de IPTV.",
+        "about" : "Sitio de Streaming 24/7 dedicado al canal Magic Kids, disfruta de su contenido en vivo desde la pagina y app.",
+        "github" : "https://github.com/AlexQS96/Magicstream",
+        "url" : "https://magickids.live",
+        "link" : "/magicstream",
+        "tech" : ["NextJSLogo","NGINXLogo"],
+        "wip" : true
+    }
+    ,
+    {
+        "id" : 4,
+        "name" : "404 Computers",
+        "image" : "404computers_preview.jpg",
+        "screens" : ["404store_notebook.png","404store_mobile.png"],
+        "description" : "404 Computers es una tienda online de productos electronicos, la pagina se desarrollo en conjunto con 2 compañeros mas, cuenta con las funciones de : registro, inicio de sesion, navegacion por paginas, categorias, subcategorias, favoritos, historial y administración de productos y usuarios.",
+        "about" : "E-Commerce de hardware y electrodomesticos",
+        "github" : "https://github.com/AlexQS96/404_Computers_V2",
+        "url" : "#nowebsitebythemoment",
+        "link" : "/404computers",
+        "tech" : ["NodeJSLogo", "ExpressLogo", "MYSQLLogo"],
+        "wip" : true
+    }
+]
