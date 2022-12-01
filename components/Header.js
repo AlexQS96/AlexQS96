@@ -15,10 +15,10 @@ export default function Header () {
   return (
     <header>
       <nav>
-        <Link href="/" onClick={() => logoNav()}><LogoPage/></Link>
+        <Link href="/" aria-label='Home' onClick={() => logoNav()}><LogoPage/></Link>
         {
             window.width < 768 &&
-            <div onClick={() => openNav()} className='svgFill'><BurgerMenu /></div>
+            <div onClick={() => openNav()}><BurgerMenu /></div>
         }
 
         <ul className='nav'>

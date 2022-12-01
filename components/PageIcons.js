@@ -6,6 +6,7 @@ export const LogoPage = () => (
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50.11 43.9"
     >
+        <title>Logo</title>
         <path
             className="svgStroke"
             fill="none"
