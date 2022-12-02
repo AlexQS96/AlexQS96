@@ -35,7 +35,7 @@ export const SwitchDarkMode = () => {
 
   return (
         <li onClick={() => setTheme(theme === "light"? 'dark' : 'light')}>
-            <div id='navOpt' className='svgFill'>{theme === "light"? <MoonLogo/> : <SunLogo/>}</div>
+            <div id='navOpt'>{theme === "light"? <MoonLogo/> : <SunLogo/>}</div>
             {window.width < 768 && <p>{theme === 'light'? pageLanguage.darkMode : pageLanguage.lightMode}</p>}
         </li>
   )

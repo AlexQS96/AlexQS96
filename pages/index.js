@@ -19,7 +19,7 @@ export default function Home() {
     MYSQLLogo: MYSQLLogo
   };
 
-  const {pageLanguage} = useContext(PorfolioContext);
+  const {languageSelected, pageLanguage} = useContext(PorfolioContext);
 
   return (
     <>
@@ -109,7 +109,7 @@ export default function Home() {
                 }
                 </div>
                 
-                <p>{project.about}</p>
+                <p>{languageSelected === 'es'? project.aboutES : project.aboutEN}</p>
 
                 <div data-row-tech className='svgFill'>
                   <a href={project.github} target="_blank" rel="noreferrer noopener"><GithubLogo/></a>
@@ -132,21 +132,21 @@ export default function Home() {
               <WebLogo/>
               <h3>Diseño de Paginas Web</h3>
             </article>
-            <p>Necesitas una pagina web? te puedo ayudar con eso, realización de blogs, paginas para instituciones, personales, equipos de deporte, necesitas diseños para el contenido de la pagina? no hay problema me puedo encargar de ello segun tus necesidades.</p>
+            <p>{pageLanguage.webService}</p>
           </div>
           <div>
             <article data-title-services>
               <LiveLogo/>
               <h3>Armado de Servidor de Streaming</h3>
             </article>
-            <p>Necesitas un servicio de Streaming de Video o de Radio? te puedo ayudar con la creación de un servidor propio para montar tu servicio, en caso de video se te brindara una herramienta para el manejo de contenido.</p>
+            <p>{pageLanguage.streamingService}</p>
           </div>
           <div>
             <article data-title-services>
               <StoreLogo/>
               <h3>Diseño y Armado de Tienda Virtual</h3>
             </article>
-            <p>Buscas expandir tu negocio en internet? te puedo ayudar con la creación de una pagina web para que puedas organizar y realizar ventas con pocos clicks, necesitas soporte para entender el entorno? no hay problema se te brinda un tutorial y guia por llamada ante cualquier duda.</p>
+            <p>{pageLanguage.storeService}</p>
           </div>
         </section>
       </RevealWrapper>
