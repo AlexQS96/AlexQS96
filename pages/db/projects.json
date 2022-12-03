@@ -8,10 +8,10 @@
         "aboutES" : "¿Quieres subir notas anonimamente? Throw a Note es tu sitio de notas random.",
         "aboutEN" : "Want to share your note anonimously? Throw a Note is your site of random notes.",
         "github" : "https://github.com/AlexQS96/ThrowANote_Web",
-        "url" : "https://throwanote.netlify.app",
+        "url" : "https://throwanote.vercel.app",
         "link" : "/throwanote",
         "tech" : ["NextJSLogo", "ExpressLogo", "NodeJSLogo", "MongoDBLogo"],
-        "wip" : true
+        "wip" : false
     }
     ,
     {
