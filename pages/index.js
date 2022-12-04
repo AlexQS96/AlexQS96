@@ -130,21 +130,21 @@ export default function Home() {
           <div>
             <article data-title-services>
               <WebLogo/>
-              <h3>Diseño de Paginas Web</h3>
+              <h3>{pageLanguage.webServiceTitle}</h3>
             </article>
             <p>{pageLanguage.webService}</p>
           </div>
           <div>
             <article data-title-services>
               <LiveLogo/>
-              <h3>Armado de Servidor de Streaming</h3>
+              <h3>{pageLanguage.streamingServiceTitle}</h3>
             </article>
             <p>{pageLanguage.streamingService}</p>
           </div>
           <div>
             <article data-title-services>
               <StoreLogo/>
-              <h3>Diseño y Armado de Tienda Virtual</h3>
+              <h3>{pageLanguage.storeServiceTitle}</h3>
             </article>
             <p>{pageLanguage.storeService}</p>
           </div>
