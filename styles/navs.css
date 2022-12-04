@@ -118,8 +118,8 @@ footer h6:nth-child(2){
         height: 100%;
         opacity: 0;
         visibility: hidden;
-        transition: opacity .35s, visibility .35s, height .35s;
-        will-change: opacity;
+        transition: opacity .35s, visibility .35s;
+        will-change: opacity, visibility;
     }
 
     header .navOpen{
