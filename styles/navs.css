@@ -119,6 +119,7 @@ footer h6:nth-child(2){
         opacity: 0;
         visibility: hidden;
         transition: opacity .35s, visibility .35s, height .35s;
+        will-change: opacity;
     }
 
     header .navOpen{
@@ -128,11 +129,11 @@ footer h6:nth-child(2){
     }
 
     [data-theme=light] .navOpen{
-        border: 8px double #000;
+        border: .5rem double #000;
     }
 
     [data-theme=dark] .navOpen{
-        border: 3px solid #fff;
+        border: .5rem solid #fff;
     }
 
     header .navOpen span{

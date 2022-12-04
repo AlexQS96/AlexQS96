@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang='es' className='sr'>
       <Head>
-        <meta name="theme-color" content="#16074a"/>
+        <meta name="theme-color" content="#090426"/>
         <meta name="keywords" content="alexqs96 porfolio" />
         <meta name="description" content="alexqs96 porfolio" />
         <meta property="og:description" content="Web Developer" />
