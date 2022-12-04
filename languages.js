@@ -53,7 +53,7 @@ let translationsData = {
       webService: 'Blogs, Institucional Pages, Personal Pages, Sport Teams, the design is adapted to the client needs, every pages comes with a multiplatform adaptative design.',
       streamingServiceTitle: 'Streaming Server',
       streamingService: 'Web Design + Streaming Multimedia Server - Radio, TV, without hosting, the server will run through your own PC, you will receive a self made Tools for manage the content of your Stream.',
-      storeService: 'Virtual Store',
+      storeServiceTitle: 'Virtual Store',
       storeService: 'Get more clients with your store in internet, you will get a webpage with a custom design adapted to your needs, integration of payment services and chat, and support to get started with the management of your store',
       ctaTitle: "Do you have a project in mind?",
       cta: "Get in touch",
