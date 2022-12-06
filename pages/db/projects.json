@@ -53,9 +53,9 @@
         "aboutES" : "E-Commerce de hardware y electrodomesticos",
         "aboutEN" : "E-Commerce of hardware and home appliances.",
         "github" : "https://github.com/AlexQS96/404_Computers_V2",
-        "url" : "#nowebsitebythemoment",
+        "url" : "https://store404computers.adaptable.app",
         "link" : "/404computers",
         "tech" : ["NodeJSLogo", "ExpressLogo", "MYSQLLogo"],
-        "wip" : true
+        "wip" : false
     }
 ]
