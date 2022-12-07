@@ -8,7 +8,7 @@ export default function Layout ({ children }) {
     setTimeout(() => {
       butter.init({
         wrapperId: 'momentum',
-        wrapperDamper: 0.06,
+        wrapperDamper: 0.07,
         cancelOnTouch : true
       })
     }, 500);
