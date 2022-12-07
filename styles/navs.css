@@ -79,23 +79,6 @@ footer h6:nth-child(2){
     margin-top: auto;
 }
 
-@keyframes openMenu {
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
-@keyframes leaveMenu {
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-    }
-}
 
 /*****************************************/
 /* Media Queries */
@@ -115,7 +98,7 @@ footer h6:nth-child(2){
         top: 0;
         left: 0;
         width: 100%;
-        height: 0%;
+        height: 100%;
         opacity: 0;
         visibility: hidden;
         transition: opacity .35s, visibility .35s, height .35s;
@@ -125,7 +108,6 @@ footer h6:nth-child(2){
     header .navOpen{
         opacity: .98;
         visibility: visible;
-        height: 100%;
     }
 
     [data-theme=light] .navOpen{

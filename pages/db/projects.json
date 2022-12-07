@@ -23,7 +23,7 @@
         "aboutES" : "Chatea anonimamente con grupos en Anonytalk, crea tu chat y compartilo con amigos.",
         "aboutEN" : "Chat anonimously in groups at Anonytalk, create your chat and share it with friends.",
         "github" : "https://github.com/AlexQS96/Anonytalk_Web",
-        "url" : "https://anonytalk.netlify.app",
+        "url" : "https://anonytalk.vercel.app",
         "link" : "/anonytalk",
         "tech" : ["NextJSLogo", "ExpressLogo", "NodeJSLogo" , "SocketIOLogo"],
         "wip" : false
