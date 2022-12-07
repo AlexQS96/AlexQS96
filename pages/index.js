@@ -35,7 +35,7 @@ export default function Home() {
           </RevealWrapper>
 
           <RevealWrapper origin='right' className="load-hidden">
-            <Image style={{width: 'auto', height: 'auto'}} quality={100} src='/img/decoration/laptop.png' alt='laptop' width={800} height={500} priority={true}/>
+            <Image style={{width: 'auto', height: 'auto'}} quality={100} src='/img/laptop.png' alt='laptop' width={800} height={500} priority={true}/>
           </RevealWrapper>
         </section>
       </RevealWrapper>
@@ -63,7 +63,7 @@ export default function Home() {
                 <a href='https://www.facebook.com/profile.php?id=100041428520951' target="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
                 </div>
               </div>
-              <button className='button_1'>{pageLanguage.downloadcv}</button>
+              <a className='button_1' href='/img/cv_alexander_mamani.pdf' without='true' rel="noopener noreferrer" target="_blank">{pageLanguage.downloadcv}</a>
             </div>
           </section>
         </section>

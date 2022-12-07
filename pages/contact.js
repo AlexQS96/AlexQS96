@@ -116,7 +116,7 @@ export default function Contact() {
         </section>
 
         <section>
-        <Image style={{width: 'auto', height: 'auto'}} src='/img/decoration/laptop.png' alt='laptop' width={600} height={300} priority={true} quality={100}/>
+        <Image style={{width: 'auto', height: 'auto'}} src='/img/laptop.png' alt='laptop' width={600} height={300} priority={true} quality={100}/>
         </section>
         
       </div>

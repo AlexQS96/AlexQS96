@@ -281,7 +281,7 @@ img{
   text-transform: uppercase;
 }
 
-.about button{
+.about .button_1{
   font-size: var(--big_button);
   margin-left: auto;
 }
@@ -297,6 +297,10 @@ img{
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
+}
+
+.social a{
+  display: flex;
 }
 
 /* -        Skills       - */
