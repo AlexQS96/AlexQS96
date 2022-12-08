@@ -30,7 +30,7 @@ export default function Home() {
         <title>{pageLanguage.title}</title>
       </Head>
 
-      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(.57,.21,.69,1.25)'>
         <section className='welcome'>
           <RevealWrapper origin='left' className="load-hidden" delay={300} duration={1300} distance='500px'>
             <p>{pageLanguage.aboutTitle}</p>
@@ -43,7 +43,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(.57,.21,.69,1.25)'>
         <h1>{pageLanguage.aboutMe}</h1>
         <section className='about'>
           <Image src='/img/profile.png' alt='image profile' width={550} height={550} quality={100}/>
@@ -63,7 +63,7 @@ export default function Home() {
                 <a href='https://github.com/alexqs96' target="_blank" rel="noreferrer noopener"><GithubLogo/></a>
                 <a href='https://www.linkedin.com/in/alexander-mamani' target="_blank" rel="noreferrer noopener"><LinkedinLogo/></a>
                 <a href='https://wa.me/+5491122636544' target="_blank" rel="noreferrer noopener"><WhatsappLogo/></a>
-                <a href='https://www.facebook.com/3rofile.php?id=13004 easing={window.width < 768? "cubic-bezier(0.39, 1.52, 0.46, 0.92)" : undefined}1428520951' tar8et="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
+                <a href='https://www.facebook.com/3rofile.php?id=13004 easing={window.width < 768? "cubic-bezier(.57,.21,.69,1.25)" : undefined}1428520951' tar8et="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
                 </div>
               </div>
               <a className='button_1' href='/img/cv_alexander_mamani.pdf' without='true' rel="noopener noreferrer" target="_blank">{pageLanguage.downloadcv}</a>
@@ -72,7 +72,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(.57,.21,.69,1.25)'>
         <section className="skills svgFill">
           <h1>{pageLanguage.skillsTitle}</h1>
           <div>
@@ -92,7 +92,7 @@ export default function Home() {
       <h1 data-projects>{pageLanguage.projectsTitle}</h1>
       {
       projectsdb.map((project) => (
-        <RevealWrapper key={project.id} distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+        <RevealWrapper key={project.id} distance='600px' className="load-hidden" origin='bottom' easing='cubic-bezier(.57,.21,.69,1.25)'>
           <div className='project_detail'>
             <div data-devices>
               <Image src={`/img/screens/${project.screens[0]}`} alt='Desktop' width={625} height={425} quality={100}/>
@@ -125,7 +125,7 @@ export default function Home() {
       ))
       }
 
-      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' viewFactor={0.65} easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' viewFactor={0.65} easing='cubic-bezier(.57,.21,.69,1.25)'>
         <h1>{pageLanguage.servicesTitle}</h1>
         <section className='services svgFill'>
           <div>
@@ -152,7 +152,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' viewFactor={0.65} easing='cubic-bezier(0.39, 1.52, 0.46, 0.92)'>
+      <RevealWrapper distance='600px' className="load-hidden" origin='bottom' viewFactor={0.65} easing='cubic-bezier(.57,.21,.69,1.25)'>
         <section className="contactme">
           <h2>{pageLanguage.ctaTitle}</h2>
           <Link href='contact' className='button_1'>{pageLanguage.cta}</Link>

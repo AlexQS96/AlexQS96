@@ -101,7 +101,7 @@ footer h6:nth-child(2){
         height: 100%;
         opacity: 0;
         visibility: hidden;
-        transition: opacity 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92), visibility 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+        transition: opacity .3s cubic-bezier(.57,.21,.69,1.25), visibility .3s cubic-bezier(.57,.21,.69,1.25);
     }
 
     header .navOpen{
