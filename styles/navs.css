@@ -101,12 +101,17 @@ footer h6:nth-child(2){
         height: 100%;
         opacity: 0;
         visibility: hidden;
-        transition: all 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+        transition: opacity 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92), visibility 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
     }
 
     header .navOpen{
         opacity: .98;
         visibility: visible;
+    }
+
+    header .nav span,
+    header .nav li{
+        display: none;
     }
 
     [data-theme=light] .navOpen{
@@ -118,6 +123,7 @@ footer h6:nth-child(2){
     }
 
     header .navOpen span{
+        display: block;
         top: 1rem;
         right: 1.8rem;
         position: absolute;
