@@ -101,7 +101,7 @@ footer h6:nth-child(2){
         height: 100%;
         opacity: 0;
         visibility: hidden;
-        transition: opacity .35s, visibility .35s, height .35s;
+        transition: all 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
         will-change: opacity, visibility, height;
     }
 

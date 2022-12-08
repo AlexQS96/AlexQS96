@@ -363,13 +363,8 @@ img{
   font-size: var(--h3_custom);
 }
 
-.projects{
-  display: grid;
-  gap: 8rem;
-}
-
-.projects [data-projects]{
-  margin-bottom: -12rem;
+[data-projects]{
+  margin-bottom: -6rem;
 }
 
 
@@ -704,11 +699,6 @@ img{
     flex-wrap: nowrap;
     margin-block: 1rem;
   }
-  
-  .contact div:nth-of-type(2){
-    width: 50%;
-    display: flex;
-  }
 
   .contact form{
     width: 500px;
@@ -716,6 +706,13 @@ img{
 
   footer{
     padding-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 990px) {
+  .contact div:nth-of-type(2){
+    width: 50%;
+    display: flex;
   }
 }
 

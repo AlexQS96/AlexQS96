@@ -27,20 +27,20 @@ export default function Home() {
         <title>{pageLanguage.title}</title>
       </Head>
 
-      <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true} >
+      <RevealWrapper origin='top' delay={300} duration={1300} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='500px'>
         <section className='welcome'>
-          <RevealWrapper origin='left' className="load-hidden">
+          <RevealWrapper origin='left' className="load-hidden" delay={300} duration={1300} distance='500px'>
             <p>{pageLanguage.aboutTitle}</p>
             <p>{pageLanguage.welcome}</p>
           </RevealWrapper>
 
-          <RevealWrapper origin='right' className="load-hidden">
+          <RevealWrapper origin='right' className="load-hidden" delay={300} duration={1300} distance='500px'>
             <Image style={{width: 'auto', height: 'auto'}} quality={100} src='/img/laptop.png' alt='laptop' width={800} height={500} priority={true}/>
           </RevealWrapper>
         </section>
       </RevealWrapper>
 
-      <RevealWrapper origin='right' delay={200} duration={1000} distance='500px' reset={true} >
+      <RevealWrapper origin='right' delay={300} duration={1300} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='500px'>
         <h1>{pageLanguage.aboutMe}</h1>
         <section className='about'>
           <Image src='/img/profile.png' alt='image profile' width={550} height={550} quality={100}/>
@@ -60,7 +60,7 @@ export default function Home() {
                 <a href='https://github.com/alexqs96' target="_blank" rel="noreferrer noopener"><GithubLogo/></a>
                 <a href='https://www.linkedin.com/in/alexander-mamani' target="_blank" rel="noreferrer noopener"><LinkedinLogo/></a>
                 <a href='https://wa.me/+5491122636544' target="_blank" rel="noreferrer noopener"><WhatsappLogo/></a>
-                <a href='https://www.facebook.com/profile.php?id=100041428520951' target="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
+                <a href='https://www.facebook.com/3rofile.php?id=13004 easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)"1428520951' tar8et="_blank" rel="noreferrer noopener"><FacebookLogo/></a>
                 </div>
               </div>
               <a className='button_1' href='/img/cv_alexander_mamani.pdf' without='true' rel="noopener noreferrer" target="_blank">{pageLanguage.downloadcv}</a>
@@ -69,7 +69,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
+      <RevealWrapper origin='left' delay={300} duration={1300} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='500px'>
         <section className="skills svgFill">
           <h1>{pageLanguage.skillsTitle}</h1>
           <div>
@@ -86,11 +86,10 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <section className='projects'>
       <h1 data-projects>{pageLanguage.projectsTitle}</h1>
       {
       projectsdb.map((project) => (
-        <RevealWrapper key={project.id} origin={project.id % 2? 'left' : 'right'} delay={200} duration={1000} distance='200px' reset={true}>
+        <RevealWrapper key={project.id} origin={project.id % 2? 'left' : 'right'} delay={300} duration={1300} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='800px'>
           <div className='project_detail'>
             <div data-devices>
               <Image src={`/img/screens/${project.screens[0]}`} alt='Desktop' width={625} height={425} quality={100}/>
@@ -122,9 +121,8 @@ export default function Home() {
         </RevealWrapper>
       ))
       }
-      </section>
 
-      <RevealWrapper origin='right' delay={400} duration={1000} distance='400px' reset={true}>
+      <RevealWrapper origin='left' delay={700} duration={1300} viewFactor={0.65} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='800px'>
         <h1>{pageLanguage.servicesTitle}</h1>
         <section className='services svgFill'>
           <div>
@@ -151,7 +149,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper origin='left' delay={200} duration={1000} distance='200px' reset={true}>
+      <RevealWrapper origin='right' delay={700} duration={1300} viewFactor={0.65} easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" distance='800px'>
         <section className="contactme">
           <h2>{pageLanguage.ctaTitle}</h2>
           <Link href='contact' className='button_1'>{pageLanguage.cta}</Link>

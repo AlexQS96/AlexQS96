@@ -74,7 +74,7 @@ export default function Contact() {
       </Head>
       <div className="contact">
 
-        <RevealWrapper id='formContact' origin='left' delay={200} duration={1000} distance='500px' reset={true} >
+        <RevealWrapper id='formContact' origin='left' delay={200} duration={1000} distance='500px' easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" >
           <section data-type-email>
             <h4>EMAIL</h4>
             <a href="mailto:alexander.mamani.dev@gmail.com">alexander.mamani.dev@gmail.com</a>  
@@ -116,7 +116,7 @@ export default function Contact() {
           </form>
         </RevealWrapper>
 
-        <RevealWrapper id='formImage' origin='right' delay={200} duration={1000} distance='500px' reset={true} >
+        <RevealWrapper id='formImage' origin='right' delay={200} duration={1000} distance='500px' easing="cubic-bezier(0.39, 1.52, 0.46, 0.92)" >
         <Image style={{width: 'auto', height: 'auto'}} src='/img/laptop.png' alt='laptop' width={600} height={300} priority={true} quality={100}/>
         </RevealWrapper>
         
