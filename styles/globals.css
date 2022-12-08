@@ -517,12 +517,12 @@ img{
   font-weight: bold;
 }
 
-.contact section:nth-of-type(2){
+.contact div:nth-of-type(2){
   width: 0%;
   display: none;
 }
 
-.contact section:nth-of-type(2) img{
+.contact div:nth-of-type(2) img{
   object-fit: contain;
   margin: auto;
 }
@@ -705,7 +705,7 @@ img{
     margin-block: 1rem;
   }
   
-  .contact section:nth-of-type(2){
+  .contact div:nth-of-type(2){
     width: 50%;
     display: flex;
   }

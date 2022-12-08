@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { PorfolioContext } from "../context/AppContext"
 import { useForm } from 'react-hook-form';
 import { WarningLogo } from "../components/PageIcons";
+import { RevealWrapper } from "next-reveal";
 
 export default function Contact() {
 
@@ -73,7 +74,7 @@ export default function Contact() {
       </Head>
       <div className="contact">
 
-        <section>
+        <RevealWrapper id='formContact' origin='left' delay={200} duration={1000} distance='500px' reset={true} >
           <section data-type-email>
             <h4>EMAIL</h4>
             <a href="mailto:alexander.mamani.dev@gmail.com">alexander.mamani.dev@gmail.com</a>  
@@ -113,11 +114,11 @@ export default function Contact() {
                 className={"button_1 "+[messageStatus.type === 1? ' msgSent' : messageStatus.type === 2 ? 'msgError' : undefined]}
               >{messageStatus.type === 1 || messageStatus.type === 2 ? messageStatus.msg : pageLanguage.formSent}</button>
           </form>
-        </section>
+        </RevealWrapper>
 
-        <section>
+        <RevealWrapper id='formImage' origin='right' delay={200} duration={1000} distance='500px' reset={true} >
         <Image style={{width: 'auto', height: 'auto'}} src='/img/laptop.png' alt='laptop' width={600} height={300} priority={true} quality={100}/>
-        </section>
+        </RevealWrapper>
         
       </div>
     </>

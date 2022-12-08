@@ -27,7 +27,7 @@ export default function Home() {
         <title>{pageLanguage.title}</title>
       </Head>
 
-      <RevealWrapper>
+      <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true} >
         <section className='welcome'>
           <RevealWrapper origin='left' className="load-hidden">
             <p>{pageLanguage.aboutTitle}</p>
@@ -40,7 +40,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper>
+      <RevealWrapper origin='right' delay={200} duration={1000} distance='500px' reset={true} >
         <h1>{pageLanguage.aboutMe}</h1>
         <section className='about'>
           <Image src='/img/profile.png' alt='image profile' width={550} height={550} quality={100}/>
@@ -69,7 +69,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper>
+      <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
         <section className="skills svgFill">
           <h1>{pageLanguage.skillsTitle}</h1>
           <div>
@@ -90,7 +90,7 @@ export default function Home() {
       <h1 data-projects>{pageLanguage.projectsTitle}</h1>
       {
       projectsdb.map((project) => (
-        <RevealWrapper key={project.id}>
+        <RevealWrapper key={project.id} origin={project.id % 2? 'left' : 'right'} delay={200} duration={1000} distance='200px' reset={true}>
           <div className='project_detail'>
             <div data-devices>
               <Image src={`/img/screens/${project.screens[0]}`} alt='Desktop' width={625} height={425} quality={100}/>
@@ -124,7 +124,7 @@ export default function Home() {
       }
       </section>
 
-      <RevealWrapper>
+      <RevealWrapper origin='right' delay={400} duration={1000} distance='400px' reset={true}>
         <h1>{pageLanguage.servicesTitle}</h1>
         <section className='services svgFill'>
           <div>
@@ -151,7 +151,7 @@ export default function Home() {
         </section>
       </RevealWrapper>
 
-      <RevealWrapper>
+      <RevealWrapper origin='left' delay={200} duration={1000} distance='200px' reset={true}>
         <section className="contactme">
           <h2>{pageLanguage.ctaTitle}</h2>
           <Link href='contact' className='button_1'>{pageLanguage.cta}</Link>
