@@ -9,7 +9,7 @@ export default function Document() {
         <meta name="keywords" content="alexqs96 porfolio" />
         <meta name="description" content="alexqs96 porfolio" />
         <meta property="og:description" content="Web Developer" />
-        <meta property="og:image" content="/img/porfolio_og.png" />
+        <meta property="og:image" content="/img/banners/porfolio_og.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Alexqs96 Banner" />
