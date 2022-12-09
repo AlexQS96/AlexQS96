@@ -116,3 +116,11 @@
     root.butter = new Butter();
 
 })(this);
+
+setTimeout(() => {
+    butter.init({
+      wrapperId: 'momentum',
+      wrapperDamper: 0.07,
+      cancelOnTouch : true
+    })
+}, 500);

@@ -363,12 +363,17 @@ img{
   font-size: var(--h3_custom);
 }
 
-[data-projects]{
-  margin-bottom: -6rem;
-}
-
 
 /* -        Projects       - */
+
+.projects{
+  display: grid;
+  gap: 7rem;
+}
+
+[data-projects]{
+  margin-bottom: -4rem;
+}
 
 .project_detail{
   display: flex;
@@ -689,7 +694,7 @@ img{
     width: 50%;
   }
 
-  div div div:nth-of-type(even) .project_detail{
+  .project_detail:nth-of-type(even){
     flex-flow: row-reverse;
   }
 
