@@ -90,7 +90,7 @@ export const AboutBlock = ({ pageLanguage }) => {
                                     <WhatsappLogo />
                                 </a>
                                 <a
-                                    href='https://www.facebook.com/3rofile.php?id=13004'
+                                    href='https://www.facebook.com/profile.php?id=100041428520951'
                                     tar8et="_blank"
                                     rel="noreferrer noopener"
                                 >
