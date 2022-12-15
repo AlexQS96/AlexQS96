@@ -90,7 +90,7 @@ export const AboutBlock = ({ pageLanguage }) => {
                                     <WhatsappLogo />
                                 </a>
                                 <a
-                                    href='https://www.facebook.com/3rofile.php?id=13004 easing={window.width < 768? "cubic-bezier(.57,.21,.69,1.25)" : undefined}1428520951'
+                                    href='https://www.facebook.com/3rofile.php?id=13004'
                                     tar8et="_blank"
                                     rel="noreferrer noopener"
                                 >
