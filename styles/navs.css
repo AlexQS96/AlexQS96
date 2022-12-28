@@ -107,19 +107,12 @@ footer h6:nth-child(2){
     header .navOpen{
         opacity: .98;
         visibility: visible;
+        border: .5rem double var(--dark_text);
     }
 
     header .nav span,
     header .nav li{
         display: none;
-    }
-
-    [data-theme=light] .navOpen{
-        border: .5rem double #000;
-    }
-
-    [data-theme=dark] .navOpen{
-        border: .5rem solid #fff;
     }
 
     header .navOpen span{
