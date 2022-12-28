@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import useWindowSize from '../hooks/useWindowSize'
 import { openMenu } from '../utils/tools'
-import { SwitchDarkMode } from '../components/DarkModeSwitch'
+import { SwitchDarkMode } from '../components/darkModeSwitch'
 import { useContext } from 'react'
 import { PorfolioContext } from '../context/AppContext'
 import { MailLogo, LogoPage, BurgerMenu } from './PageIcons'
