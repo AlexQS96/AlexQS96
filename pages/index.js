@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useContext } from 'react';
 import { PorfolioContext } from '../context/AppContext';
-import { AboutBlock, ContactBlock, ProjectsBlock, ServicesBlock, SkillsBlock, WelcomeBlock } from '../components/homeSections';
+import { AboutBlock, ContactBlock, ProjectsBlock, SkillsBlock, WelcomeBlock } from '../components/HomeSections';
 
 export default function Home() {
   
@@ -30,9 +30,9 @@ export default function Home() {
         languageSelected={languageSelected}
       />
 
-      <ServicesBlock
+{/*       <ServicesBlock
         pageLanguage={pageLanguage}
-      />
+      /> */}
 
       <ContactBlock
         pageLanguage={pageLanguage}

@@ -228,37 +228,6 @@ export const ProjectsBlock = ({ pageLanguage, languageSelected }) => {
     );
 };
 
-export const ServicesBlock = ({pageLanguage}) => {
-  return (
-    <section>
-        <h1>{pageLanguage.servicesTitle}</h1>
-        <section className='services svgFill'>
-        <div>
-            <article data-title-services>
-            <WebLogo/>
-            <h3>{pageLanguage.webServiceTitle}</h3>
-            </article>
-            <p>{pageLanguage.webService}</p>
-        </div>
-        <div>
-            <article data-title-services>
-            <LiveLogo/>
-            <h3>{pageLanguage.streamingServiceTitle}</h3>
-            </article>
-            <p>{pageLanguage.streamingService}</p>
-        </div>
-        <div>
-            <article data-title-services>
-            <StoreLogo/>
-            <h3>{pageLanguage.storeServiceTitle}</h3>
-            </article>
-            <p>{pageLanguage.storeService}</p>
-        </div>
-        </section>
-    </section>
-  )
-}
-
 export const ContactBlock = ({pageLanguage}) => {
   return (
     <section className="contactme">

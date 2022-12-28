@@ -30,21 +30,6 @@
     }
     ,
     {
-        "id" : 3,
-        "name" : "Magic Stream",
-        "image" : "magickids.png",
-        "screens" : ["magic_notebook.png","magic_mobile.png"],
-        "description" : "Magic Stream es una pagina de Streaming 24/7 dedicado mas al area de Anime del Canal Magic Kids, la pagina se realizo con NextJs, la base de datos se realizo en JSON la cual es consumida en la Grilla, Guia de Show Actual y Siguiente, Interfaz para Generar Playlist de VLC de 24 Horas para manejar el Stream y su Contenido, tambien arme el Servidor de esta pagina con NGINX, el cual se encarga de transmitir el contenido via OBS a la Pagina y Servicios de IPTV.",
-        "aboutES" : "Sitio de Streaming 24/7 dedicado al canal Magic Kids, disfruta de su contenido en vivo desde la pagina y app.",
-        "aboutEN" : "Streaming Website 24/7 dedicated to the channel Magic Kids, Enjoy the content through the web and app.",
-        "github" : "https://github.com/AlexQS96/Magicstream",
-        "url" : "https://magickids.live",
-        "link" : "/magicstream",
-        "tech" : ["NextJSLogo","NGINXLogo"],
-        "wip" : true
-    }
-    ,
-    {
         "id" : 4,
         "name" : "404 Computers",
         "image" : "404computers_preview.jpg",
